@@ -12,10 +12,12 @@
     "useIgnoreFile": true
   },
   "formatter": {
+    "enabled": true,
     "indentStyle": "space"
   },
   "javascript": {
     "formatter": {
+      "enabled": true,
       "quoteStyle": "single"
     }
   },
