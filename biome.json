@@ -4,7 +4,7 @@
     "enabled": true
   },
   "files": {
-    "include": ["./src/**/*.{ts,tsx,css,html}"]
+    "ignore": ["tsconfig.json", "tsconfig.node.json", "tsconfig.app.json"]
   },
   "vcs": {
     "enabled": true,
@@ -12,12 +12,10 @@
     "useIgnoreFile": true
   },
   "formatter": {
-    "enabled": true,
     "indentStyle": "space"
   },
   "javascript": {
     "formatter": {
-      "enabled": true,
       "quoteStyle": "single"
     }
   },

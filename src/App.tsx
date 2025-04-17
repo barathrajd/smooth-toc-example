@@ -7,7 +7,7 @@ function App() {
   return (
     <Container>
       <MainContent>
-      <MarkdownView />
+        <MarkdownView />
       </MainContent>
     </Container>
   );
