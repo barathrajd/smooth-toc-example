@@ -1,11 +1,14 @@
 import './App.css';
 import { Container } from './atoms/container';
 import { MainContent } from './components/main-content';
+import { MarkdownView } from './components/markdown-view';
 
 function App() {
   return (
     <Container>
-      <MainContent>test</MainContent>
+      <MainContent>
+      <MarkdownView />
+      </MainContent>
     </Container>
   );
 }
